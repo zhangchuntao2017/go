@@ -18,7 +18,7 @@ func (m *Moive) summary() string {
 func main() {
 
 	m := Moive{
-		Name: "Spiderman",
+		Name:   "Spiderman",
 		Rating: 3.2,
 	}
 
