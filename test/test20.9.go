@@ -1,4 +1,4 @@
-package main
+package test
 
 import (
 	"encoding/json"
@@ -14,7 +14,7 @@ type User struct {
 
 func main() {
 	var u User
-	res, err := http.Get("https://api.gethub.com/users/shapeshed")
+	res, err := http.Get("https://api.github.com/users/shapeshed")
 	if err != nil {
 		log.Fatal(err)
 	}
